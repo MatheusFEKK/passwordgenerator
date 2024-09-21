@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeKeyMaker</title>
+    <link type="text/css" rel="stylesheet" href="lib/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav style="height: 9rem;">
+        <div class="nav-wrapper" style="background-color:#1e2139">
+          <a href="#" class="brand-logo center"><img src="img/safekeymakernavbar.png" alt=""></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+        <div class="container">
+            <div class="box">
+                <div class="slidecontainer">
+                    <input type="range" class="slider z-depth-1" value="1" min="1" max="50" id="passwordrange">
+                    <button class="morevalue" onclick="add()" style="float: right; border-radius: 2rem; width: 2rem; height: 2rem;">+</button>
+                    <button class="lessvalue" onclick="less()" style="float: left; border-radius: 2rem; width: 2rem; height: 2rem;">-</button>
+                    <br><br>
+                    <p>Valor selecionado: <span id="valueselected"></span> </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <script src="javascript/script.js"></script>
+    <script type="text/javascript" src="lib/materialize.min.js"></script>
+</body>
+</html>
