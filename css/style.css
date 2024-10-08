@@ -15,6 +15,7 @@ body {
 .box{
     display: flex;
     align-items: center;
+    padding:12rem;
 }
 
 .slidecontainer{
@@ -44,4 +45,8 @@ input[type="range"]::-webkit-slider-thumb {
     background-color: black;
 }
 
-  
+#password_creating{
+    display: flex;
+    background-color: black;
+    border-radius: 2rem;
+}
