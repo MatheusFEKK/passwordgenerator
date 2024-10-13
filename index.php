@@ -19,7 +19,8 @@
             <div class="col s6 aside" style="padding-top:6rem; padding-left:2rem;">
                 <input type="text" class="z-depth-1" id="password_creating" value="" onchange="clear()"
                     onkeypress="return false" disabled>
-                <button onclick="copy()">COPIAR</button>
+                <button onclick="copy()">Copiar</button>
+                <button onclick="passwordgenerator()">Atualizar</button>
                 <!-- <button class="morevalue" onclick="add(), passwordgenerator()" style="float: right; border-radius: 2rem; width: 2rem; height: 2rem;">+</button>
                         <button class="lessvalue" onclick="less(), passwordgenerator()" style="float: left; border-radius: 2rem; width: 2rem; height: 2rem;">-</button> -->
 
