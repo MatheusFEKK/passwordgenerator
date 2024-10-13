@@ -14,16 +14,16 @@ body {
 
 .box{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding:12rem;
-}
+    width: 60rem;
 
-.slidecontainer{
-    width: 20rem;
+    span,p {
+        color:white;
+    }
 
-    p, #valueselected{
-        font-weight: bold;
-        color: white;
+    input {
+        width: 15rem;
     }
 }
 
@@ -47,8 +47,23 @@ input[type="range"]::-webkit-slider-thumb {
 
 #password_creating{
     display: flex;
-    padding: 0.5rem;
-    background-color: black;
-    border-radius: 1rem;
+    border-radius: 3rem;
+    width: 20rem;
+    background-color: white;   
 }
 
+.aside {
+    display: flex;
+    & button {
+        border: none;
+        background-color: black;
+        border-radius: 2rem;
+        cursor: pointer;
+        height: 3rem;
+        width: 6rem;
+        color: white;
+        font-size: 12px;
+        margin-left: 2rem;
+        float: right;
+    }
+}
