@@ -16,15 +16,15 @@
                 <p>Valor selecionado: <span id="valueselectednumber"></span></p>
                 <br><br>
             </div>
-            <div class="col s6 aside" style="padding-top:6rem; padding-left:2rem;">
-                <input type="text" class="z-depth-1" id="password_creating" value="" onchange="clear()"
-                    onkeypress="return false" disabled>
-                <button onclick="copy()">Copiar</button>
-                <button onclick="passwordgenerator()">Atualizar</button>
-                <!-- <button class="morevalue" onclick="add(), passwordgenerator()" style="float: right; border-radius: 2rem; width: 2rem; height: 2rem;">+</button>
-                        <button class="lessvalue" onclick="less(), passwordgenerator()" style="float: left; border-radius: 2rem; width: 2rem; height: 2rem;">-</button> -->
+            <div class="col s6 aside" style="padding-top:6rem;">
+                <button class="morevalue" onclick="add(), passwordgenerator()" style="float: right; border-radius: 1rem; width: 2rem; height: 2rem;">+</button>
 
-                <!-- <button onclick="passwordgenerator()">atualizar</button> -->
+                <input type="text" class="z-depth-1" id="password_creating" value="" onchange="clear()" onkeypress="return false" disabled>
+
+                    <button class="lessvalue" onclick="less(), passwordgenerator()" style="float: left; border-radius: 1rem; width: 2rem; height: 2rem;">-</button>
+
+                <button onclick="passwordgenerator()">Atualizar</button>
+                <button onclick="copy()">Copiar</button>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
 
 
 
-<script type="text/javascript" src="lib/materialize.min.js"></script>
-<script src="javascript/script.js"></script>
+    <script type="text/javascript" src="lib/materialize.min.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>

@@ -64,6 +64,7 @@ input[type="range"]::-webkit-slider-thumb {
         color: white;
         font-size: 12px;
         margin-left: 2rem;
+        margin-right: 2rem;
         float: right;
     }
 }
