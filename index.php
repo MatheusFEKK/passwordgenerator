@@ -1,5 +1,7 @@
-<?php include 'navbar.php' ?>
-<?php include 'config/connect.php' ?>
+<?php include_once 'navbar.php' ?>
+
+
+?>
 
 <div class="container">
     <div class="box">

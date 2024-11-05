@@ -1,10 +1,11 @@
 :root{
-    --color-dark-blue: #121428;
+    /* --color-dark-blue: #121428; */
 }
 
 body {
     background-color: var(--color-dark-blue);
 }
+ 
 .container{
     display: flex;
     justify-content: center;
