@@ -15,3 +15,10 @@
             header('Location: signup.php');
         }
     }
+
+    if (isset($_GET['delete'])){
+        if($user->deleteuser($_GET['delete'])){
+            header ('Location: signup.php');
+        }
+    }
+

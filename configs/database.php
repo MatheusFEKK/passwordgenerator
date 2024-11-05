@@ -1,7 +1,7 @@
 <?php 
 
     Class connection {
-        private $host = 'localhost:3308';
+        private $host = 'localhost:3306';
         private $database = 'db_passwordmanager';
         private $user = 'root';
         private $password = '';

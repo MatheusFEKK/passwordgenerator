@@ -51,8 +51,16 @@
             return $stat->fetchAll(PDO::FETCH_OBJ);
         }
 
-        public function deleteuser(){
+        public function deleteuser($remove){
             $sql = "DELETE FROM users WHERE id_user = :id_user";
+            $stat = $this->db->prepare($sql);
+            $stat->bindParam(":id_user", $remove);
+            
+            if($stat->execute()){
+                return true;
+            }else {
+                return false;
+            }
         }
 
     }

@@ -1,71 +1,68 @@
-:root{
-    /* --color-dark-blue: #121428; */
-}
-
 body {
-    background-color: var(--color-dark-blue);
-}
- 
-.container{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+  background-color: #121428;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60rem;
-
-    span,p {
-        color:white;
-    }
-
-    input {
-        width: 15rem;
-    }
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.slider{
-    background-color: transparent;
-    border-radius: 2rem;
-    height: 2rem;
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+}
+
+.box span, .box p {
+  color: white;
+}
+
+.box input {
+  width: 15rem;
+}
+
+.slider {
+  background-color: transparent;
+  border-radius: 2rem;
+  height: 2rem;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-    background: white;
-    padding: 1rem;
-    height: 2rem;
-    border-radius: 2rem;
+  background: white;
+  padding: 1rem;
+  height: 2rem;
+  border-radius: 2rem;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-    margin-top: -0.5rem;
-    background-color: black;
+  margin-top: -0.5rem;
+  background-color: black;
 }
 
-#password_creating{
-    display: flex;
-    border-radius: 3rem;
-    width: 20rem;
-    background-color: white;   
+#password_creating {
+  display: flex;
+  border-radius: 3rem;
+  width: 20rem;
+  background-color: white;
 }
 
 .aside {
-    display: flex;
-    & button {
-        border: none;
-        background-color: black;
-        border-radius: 2rem;
-        cursor: pointer;
-        height: 3rem;
-        width: 6rem;
-        color: white;
-        font-size: 12px;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        float: right;
-    }
+  display: flex;
+}
+
+.aside button {
+  border: none;
+  background-color: black;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 6rem;
+  color: white;
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  float: right;
 }
